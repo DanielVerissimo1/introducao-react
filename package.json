@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "parcel index.html --open",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel index.html --open"
   },
   "repository": {
     "type": "git",
@@ -19,10 +19,14 @@
   },
   "homepage": "https://github.com/DanielVerissimo1/introducao-react#readme",
   "dependencies": {
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "6.12.1"
   },
   "devDependencies": {
-    "parcel": "^2.14.4"
+    "autoprefixer": "^10.4.22",
+    "parcel": "^2.16.3",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.17"
   }
 }
